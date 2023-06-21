@@ -1,2 +1,1 @@
-web: gunicorn crypto_cal:crypto_cal
-
+web: gunicorn crypto_cal:app
