@@ -1,1 +1,2 @@
-worker: python crypto_cal.py
+web: gunicorn crypto_cal:crypto_cal
+
